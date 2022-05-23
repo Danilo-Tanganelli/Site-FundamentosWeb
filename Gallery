@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Artist.html">Artist</a></li>
+      <li><a href="#">Festival</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="cadastro.html">Cadastro</a></li>
+      <li><a href="#">Quem Somos</a></li>
+      <li style="float: right;"><a href="#"><img src="cadastro.png" style="width:20px"></a></li>
+    </ul>
+  </nav>
+  <br><br>
+
+  <header>
+    <a href="index.html"><img src="Jaguar_Shows.png" class="media-object  img-responsive img-thumbnail"></a>
+  </header>
+
+
+<div class="horizontal-scroll-wrapper  rectangles">
+  <div><img class="Gallery" src="img1.jpg"></div>
+  <div><img class="Gallery" src="img2.jpg"></div>
+  <div><img class="Gallery" src="img3.jpg"></div>
+  <div><img class="Gallery" src="img4.jpg"></div>
+  <div><img class="Gallery" src="img5.jpg"></div>
+  <div><img class="Gallery" src="img6.jpeg"></div>
+  <div><img class="Gallery" src="ROCK-IN-RIO.jpeg"></div>
+  <div><img class="Gallery" src="Glastonbury.jpeg"></div>
+  <div><img class="Gallery" src="TOMORROWLAND.jpeg"></div>
+  <div><img class="Gallery" src="SUMMERFEST.jpeg"></div>
+  <div><img class="Gallery" src="img1.jpg"></div>
+  <div><img class="Gallery" src="ONE-OK-ROCK-4.jpg"></div>
+  <div><img class="Gallery" src="Glastonbury.jpeg"></div>
+  <div><img class="Gallery" src="img4.jpg"></div>
+  <div><img class="Gallery" src="LOLLAPALOOZA.jpeg"></div>
+  
+</div>
+
+</body>
+
+
+
+
+
+
+
+<style>
+
+    ::-webkit-scrollbar{width:2px;height:2px;}
+    ::-webkit-scrollbar-button{width:2px;height:2px;}
+    
+    div{
+      box-sizing:border-box;
+    }
+    
+  
+    .horizontal-scroll-wrapper{
+      position:absolute;
+      display:block;
+      top: 40px;
+      left:0;
+      width:520px; 
+      height:750px;
+      right: 20;
+      margin:auto;
+      background:none;
+      overflow-y:auto;
+      overflow-x:hidden;
+      transform:rotate(-90deg) translateY(-80px);
+      transform-origin:right top;
+    }
+    .horizontal-scroll-wrapper > div{
+      display:block;
+      padding:15px;
+      background:none;
+      transform:rotate(90deg);
+      transform-origin: right top;
+    }
+
+
+
+
+.rectangles{
+    top:110px;
+    padding:150px 0 0 0;
+  }
+  .rectangles > div{
+    width:350px;
+    height:300px;
+    margin:180px 250px;
+    padding:5px;
+    background:none;
+    transform:rotate(90deg) translateY(80px);
+    transform-origin: right top;
+  }
+  
+  .Gallery{
+    height:550px;
+    width:650px;
+  }
+  </style>
+
+
+<style>
+  body{background-image: url("home.jpg"); background-size: cover;}
+  
+  footer{position: relative; bottom: 0; text-align: center; height: 105px; width: 100%; color: white; padding:3px;}
+  
+  /*--------------*/
+  
+  .navbar {background-color:blue;}
+  
+ 
+  
+  
+  /*----------------------------------------------*/
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0; padding: 5;
+      overflow: auto;
+      background-color: #9B0DC5;
+      position: fixed;
+      left: 0px; top: 0px; width: 100%; 
+      z-index: 1;
+  }
+  nav ul li {float: left; text-shadow:2px 2px 4px #1f1b1bbb;}
+  
+  li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 15px 25px;
+      text-decoration: none;
+  }
+  li a:hover, .dropdown:hover .dropbtn { background-color:#566573;}
+  
+  /*-----------------------------------------*/
+  
+  
+  .corpo {
+      position: relative;
+      top: 50px; width: 900px;
+      left: calc((100% - 950px)/2);
+  }
+  
+ 
+  
+  
+  </style>
+  </html>
